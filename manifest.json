@@ -1,0 +1,16 @@
+{
+  "name": "Okan CENG & SWE Ders Notları",
+  "short_name": "OkanNotlar",
+  "start_url": "/lecture-notes/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3f51b5",
+  "icons": [
+    {
+      "src": "assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
