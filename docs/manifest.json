@@ -1,7 +1,7 @@
 {
-  "name": "Okan CENG & SWE Notları",
+  "name": "Okan CENG & SWE Ders Notları",
   "short_name": "OkanNotlar",
-  "start_url": ".",
+  "start_url": "/lecture-notes/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#3f51b5",
@@ -9,7 +9,8 @@
     {
       "src": "assets/icon.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
