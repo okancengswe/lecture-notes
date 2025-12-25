@@ -5,6 +5,7 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  custom_dir: overrides
   language: tr
   features:
     - navigation.tabs
@@ -27,3 +28,6 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.tasklist:
       custom_checkbox: true
+      
+extra_javascript:
+  - sw-register.js
