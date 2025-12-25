@@ -29,5 +29,5 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
       
-extra_javascript:
+# extra_javascript:
 #  - sw-register.js
