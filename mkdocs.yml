@@ -30,4 +30,4 @@ markdown_extensions:
       custom_checkbox: true
       
 extra_javascript:
-  - sw-register.js
+#  - sw-register.js
