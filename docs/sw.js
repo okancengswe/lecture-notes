@@ -1,5 +1,11 @@
 const CACHE_NAME = 'okan-v1';
-const assets = ['./', './index.html', './manifest.json'];
+// Önbelleğe alınacak dosyalar ana dizine göredir
+const assets = [
+  './',
+  './index.html',
+  './manifest.json',
+  './assets/icon.png'
+];
 
 self.addEventListener('install', event => {
   event.waitUntil(
