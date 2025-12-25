@@ -4,4 +4,19 @@
   <link rel="manifest" href="{{ base_url }}/manifest.json">
   <meta name="theme-color" content="#3f51b5">
   <link rel="apple-touch-icon" href="{{ base_url }}/assets/icon.png">
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        // base_url kullanarak sw.js dosyasını her zaman kök dizinden çağırır
+        navigator.serviceWorker.register('{{ base_url }}/sw.js')
+          .then(function(reg) {
+            console.log('PWA: Service Worker başarıyla kök dizinden kaydedildi.');
+          })
+          .catch(function(err) {
+            console.log('PWA: Kayıt hatası:', err);
+          });
+      });
+    }
+  </script>
 {% endblock %}
