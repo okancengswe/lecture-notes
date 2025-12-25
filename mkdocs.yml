@@ -18,7 +18,7 @@ plugins:
   - search
   - pwa:
       icon: 'docs/assets/icon.png'
-      manifest:
+      pwa_manifest:
         name: 'Okan Ders Notları'
         short_name: 'DersNotlari'
         theme_color: '#3f51b5'
