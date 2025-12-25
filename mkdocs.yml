@@ -1,0 +1,38 @@
+site_name: CENG & SWE Ders Notları
+site_url: https://okancengswe.github.io/lecture-notes/
+repo_url: https://github.com/okancengswe/lecture-notes
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: tr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+  palette:
+    primary: indigo
+    accent: indigo
+
+plugins:
+  - search
+  - pwa:
+      icon: 'docs/assets/icon.png'
+      pwa_manifest:
+        name: 'Okan Ders Notları'
+        short_name: 'DersNotlari'
+        theme_color: '#3f51b5'
+        background_color: '#ffffff'
+        display: standalone
+        orientation: portrait
+
+nav:
+  - Ana Sayfa: index.md
+  - Ortak:
+      - 'Staj': common/staj.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.tasklist:
+      custom_checkbox: true
